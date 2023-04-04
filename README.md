@@ -37,3 +37,58 @@ CODE:
 
 Developed by: NIVETHA K
 Registration Number: 2122222230102
+```
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/Semester 3/19AI403 _Intro to DS/Exp_3/SuperStore.csv")
+df
+
+df.head()
+
+df.info()
+
+df.describe()
+
+df.tail()
+
+df.shape
+
+df.columns
+
+df.isnull().sum()
+
+df.duplicated()
+
+df['Postal Code'] = df['Postal Code'].fillna(df['Postal Code'].mode()[0])
+
+df.isnull().sum()
+
+states=df.loc[:,["State","Sales"]]
+states=states.groupby(by=["State"]).sum().sort_values(by="Sales")
+plt.figure(figsize=(17,7))
+sns.barplot(x=states.index,y="Sales",data=states)
+plt.xticks(rotation = 90)
+plt.xlabel=("STATES")
+plt.ylabel=("SALES")
+plt.show()
+
+states=df.loc[:,["Segment","Sales"]]
+states=df.groupby(by=["Segment"]).sum()
+sns.barplot(x=states.index,y="Sales",data=states)
+plt.xticks(rotation = 90)
+plt.xlabel=("SEGMENT")
+plt.ylabel=("SALES")
+plt.show()
+
+sns.barplot(df["Ship Mode"],df["Sales"],hue=df["Category"])
+
+df.corr()
+sns.heatmap(df.corr(),annot=True)
+
+plt.figure(figsize=(10,7))
+sns.scatterplot(df['Sub-Category'], df['Sales'], hue=df['Ship Mode'])
+plt.xticks(rotation = 90)
+```
