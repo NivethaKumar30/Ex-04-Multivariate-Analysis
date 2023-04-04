@@ -92,6 +92,16 @@ plt.figure(figsize=(10,7))
 sns.scatterplot(df['Sub-Category'], df['Sales'], hue=df['Ship Mode'])
 plt.xticks(rotation = 90)
 ```
+OUTPUT
+
+DATASET
+DATASET HEAD
+DATASET TAIL
+DATASET INFO
+DATASET DESCRIBE
+DATASET SHAPE
+DATASET COLUMNS
+
 RESULT:
 ```
 1.Most sales were from the California State
