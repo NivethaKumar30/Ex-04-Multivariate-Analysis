@@ -129,6 +129,24 @@ DATASET COLUMNS
 
 ![ex 4 8](https://user-images.githubusercontent.com/119559844/230066543-4be2abd1-d988-4b12-8687-3044c4185172.png)
 
+Multivariate Analysis - Segment
+
+![ex 4 9](https://user-images.githubusercontent.com/119559844/230066997-77a9680a-7419-49de-bedd-d9887ee417b2.png)
+
+Multivariate Analysis - Ship Mode & Category vs Sales
+
+![ex 4 10](https://user-images.githubusercontent.com/119559844/230067057-74b6e832-7759-4478-af23-6021a716c8e9.png)
+
+
+Multivariate Analysis - Heat Map
+
+![ex 4 11](https://user-images.githubusercontent.com/119559844/230067112-14efa207-b71d-472f-b601-e712e5133313.png)
+
+
+Multivariate Analysis - Sub-Category & Ship Mode vs Sales
+
+![ex 4 12](https://user-images.githubusercontent.com/119559844/230067138-041a213d-6886-454d-b33c-a34874ee23f2.png)
+
 
 RESULT:
 ```
