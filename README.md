@@ -96,12 +96,39 @@ plt.xticks(rotation = 90)
 OUTPUT
 
 DATASET
+
+![ex 4](https://user-images.githubusercontent.com/119559844/230065793-f63a179e-331a-47ae-a3b5-cce126036278.png)
+
+
 DATASET HEAD
+
+![ex 4 1](https://user-images.githubusercontent.com/119559844/230065882-c37a1d63-efd9-4d90-b02d-7d2d74baaf3f.png)
+
+
 DATASET TAIL
+
+![ex 4 3 ](https://user-images.githubusercontent.com/119559844/230066266-2aeaad36-aff8-46b2-95c2-bc80038e7a51.png)
+
+
 DATASET INFO
+
+![ex 4](https://user-images.githubusercontent.com/119559844/230066336-91eef7ed-f7dd-4047-9997-dcb7e6ec5140.png)
+
+
 DATASET DESCRIBE
+
+![ex 4 5](https://user-images.githubusercontent.com/119559844/230066424-ab0bd31e-17b0-4d38-8d64-98fc3598af4a.png)
+
+
 DATASET SHAPE
+
+![ex 4 6](https://user-images.githubusercontent.com/119559844/230066478-0aee97e3-ff48-41d9-98c7-ebf8d0fdb9af.png)
+
+
 DATASET COLUMNS
+
+![ex 4 8](https://user-images.githubusercontent.com/119559844/230066543-4be2abd1-d988-4b12-8687-3044c4185172.png)
+
 
 RESULT:
 ```
